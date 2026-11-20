@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    box-sizing: border-box;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #d3760b;
+}
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.formulario {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.formulario input {
+    flex: 1 1 150px;
+    box-sizing: border-box;
+}
+
+input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #d4a41f;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b88c14;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+th, td {
+    padding: 6px;
+    border: 1px solid #0e0d0d;
+    text-align: center;
+}
+
+th {
+    background-color: #292a2c;
+    color: white;
+}
+
+.aprovado {
+    color: green;
+    font-weight: bold;
+}
+
+.reprovado {
+    color: red;
+    font-weight: bold;
+}
+
+#resultado {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.cabecalho img {
+    max-width: 100%;
+    height: auto;
+}
+
+.tabela-box {
+    overflow-x: auto;
+}
+
